@@ -1,0 +1,42 @@
+# Helicopter Shooter
+
+**Helicopter Shooter** es un juego 2D en Python con **Pygame**, donde pilotas un helicóptero evitando obstáculos, recolectando monedas, medikits y destruyendo torretas enemigas. El objetivo es sobrevivir la mayor distancia posible mientras acumulas puntos.  
+
+---
+
+## Qué se hizo hasta ahora
+
+- Implementación del helicóptero con física de vuelo.
+- Obstáculos que aparecen aleatoriamente.
+- Torretas enemigas que disparan balas.
+- Monedas para aumentar el puntaje.
+- Medikits para recuperar salud.
+- Sistema de partículas para explosiones y efectos visuales.
+- Contador de score basado en la distancia recorrida y coleccionables.
+- Guardado de récords con score y distancia en un **Top 10** (`records.json`).
+- Fondo dinámico con cielo degradado y nubes en movimiento.
+
+---
+
+## Mejoras planificadas
+
+Estamos mejorando el juego **paso a paso**. Algunas ideas para futuras versiones:
+
+1. **Música de fondo**: Agregar canciones o efectos sonoros ambientales.
+2. **Fondos más llamativos**: Escenarios dinámicos o con más detalles visuales.
+3. **Elección de aeronave**: Tres diseños de helicópteros diferentes con posibles atributos distintos.
+4. Mejoras de jugabilidad y balanceo de enemigos y power-ups.
+5. Posible modo infinito de juego para superar récords de distancia y score.
+
+---
+
+## 🚀 Cómo jugar
+
+- **Movimiento:** `W` o `↑` (subir), `S` o `↓` (bajar), `A` o `←` (izquierda), `D` o `→` (derecha)  
+- **Disparar:** `SPACE`  
+- **Pausa:** `P`  
+- **Reiniciar:** `R` (cuando pierdes o ganas)  
+
+---
+
+Este juego se desarrolla y mejora progresivamente, agregando nuevas funcionalidades y estética visual mientras se mantiene la jugabilidad principal.
