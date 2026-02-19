@@ -32,7 +32,7 @@ class Game:
         # Score y distancia
         self.distance = 0
         self.score = 0
-        self.target_distance = 4000  # después puedes hacer infinito
+        self.target_distance = 4000  # después puedes hacerlo infinito
 
         # Jugador y objetos
         self.helicopter = Helicopter(200, SCREEN_HEIGHT // 2)
